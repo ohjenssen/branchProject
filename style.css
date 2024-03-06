@@ -17,3 +17,26 @@ footer {
     display: flex;
     justify-content: space-around;
 }
+
+header {
+    width: 400px;
+    height: 50px;
+}
+
+nav {
+    display: flex;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    background-color: blue;
+
+}
+
+nav ul li {
+  color:red;
+  padding: 10px;
+  margin: 20px;
+  background-color: yellow;
+}
