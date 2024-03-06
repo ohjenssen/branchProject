@@ -1,29 +1,42 @@
-
-body{
-    padding: 0;margin: 0;
+body {
+    margin: 0;
 }
+
+main {
+    min-height: 90vh;
+}
+
 img{
     width: 100px;
     height: 100px;
 }
 
-header{
+footer {
+    background-color: darkblue;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}
+
+header {
     width: 400px;
     height: 50px;
 }
-nav{
+
+nav {
     display: flex;
 }
-nav ul{
+
+nav ul {
     list-style-type: none;
     display: flex;
     background-color: blue;
 
 }
-nav ul li{
-color:red;
-padding: 10px;
-margin: 20px;
-background-color: yellow;
-}
 
+nav ul li {
+  color:red;
+  padding: 10px;
+  margin: 20px;
+  background-color: yellow;
+}
